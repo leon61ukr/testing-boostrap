@@ -1,7 +1,15 @@
-$nav-tabs-link-hover-border-color{
+body {
+    max-width: 1250px;
+    margin: auto;
+}
+
+nav-tabs-link-hover-border-color{
     color: green;
 }  
 
-$nav-tabs-border-color{
-    color: green;
+.navbar .brand, .navbar .nav > li > a {
+    color: #D64848;
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #F56E6E;
 }
